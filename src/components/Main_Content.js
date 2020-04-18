@@ -12,8 +12,8 @@ export default class Header extends Component {
                             <div className="col-xl-12">
                                 <div className="slider_text ">
                                     <span>La mejor forma de telemedicina</span>
-                                    <h3> <span>Empieza a trabajar con nostros</span> 
-                                        y empeza a vivir la experiencia completa de la telemedicina</h3>
+                                    <h3> <span>Empieza a vivir con nostros</span><br></br> 
+                                        la experiencia completa de la telemedicina</h3>
                                     <a href="hola" className="boxed-btn5">Empieza ahora</a>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ export default class Header extends Component {
                             <h3>¿Eres un medico?</h3>
                             <p>Empieza ahora trabajar en remoto</p>
                             <div className="book_btn">
-                                                <a className="btn btn-warnning" href="#test-form">Empieza ahora</a>
+                                                <a className="btn btn-warnning" href="">Empieza ahora</a>
                                             </div>
                         </div>
                     </div>

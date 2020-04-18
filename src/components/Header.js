@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-
+import { BrowserRouter, Link} from 'react-router-dom'
+import Home from '../home'
+import Login from '../login';
 export default class Header extends Component {
     render(){
         return(
@@ -36,7 +38,10 @@ export default class Header extends Component {
                                     </div>
                                     <div className="book_room">
                                         <div className="book_btn">
-                                            <a className="popup-with-form" href="#test-form">Empieza ahora</a>
+                                        <BrowserRouter>
+                                            <Link to={'./home'} className="item">Comienza</Link>
+                                        </BrowserRouter>
+                                            
                                         </div>
                                     </div>
                                 </div>
